@@ -8,7 +8,7 @@ import lombok.*;
 @Setter
 @Getter
 public class Employee {
-    private int id;
+    private Long id;
     private String firstName;
     private String lastName;
     private String email;
